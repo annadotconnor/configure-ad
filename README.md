@@ -171,7 +171,7 @@ We will proceed with sukunasdomain.com - If you get the reference, you're superi
 <img src="https://i.imgur.com/nCd0ZEt.png">
 </p>
 <p>
-Click Next. On the next screen enter a password. This will not be for login, it is for a Restore Mode which is arbritrary for this lab, but must be completed to continue.
+Click Next. On the next screen enter a password. This will not be for login, it is for a Restore Mode which is not needed for this lab, but must be completed to continue.
 </p>
 <br><br>
 
