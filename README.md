@@ -189,7 +189,7 @@ The domain name has populated. Click Next.
 <img src="https://i.imgur.com/8TGmyM3.png">
 </p>
 <p>
-And now the installation is complete and ready for reboot. This will sign us out of our DC1 VM.
+And now the installation is complete and ready for reboot. This will sign us out of DC1.
 </p>
 <br><br>
 
