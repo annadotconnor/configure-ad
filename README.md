@@ -371,34 +371,6 @@ And just for transparency I have opened a command window to show we are logged i
 </p>
 <br><br>
 
-
-<p>
-<img src="https://i.imgur.com/VsHpxmM.png">
-</p>
-<p>
-Now we need to join our Client VM to our domain. Heading back over to our client VM1 in Azure, we will copy the Public IP address and connect.
-</p>
-<br><br>
-
-
-<p>
-<img src="https://i.imgur.com/FTB6PKf.png">
-</p>
-<p>
-Using Remote Desktop we will paste this IP in, and click Connect to open VM1.
-</p>
-<br><br>
-
-
-<p>
-<img src="https://i.imgur.com/SNwiRVb.png">
-</p>
-<p>
-For transparency, we can see we are back in VM1, under our labuser account. We now have both VMs running (DC1, VM1). 
-</p>
-<br><br>
-
-
 <p>
 <img src="https://i.imgur.com/fFB5nUG.png">
 </p>
@@ -434,29 +406,27 @@ Click Custom. We will now enter the domain controller's private IP address. Clic
 </p>
 <br><br>
 
-
 <p>
-<img src="https://i.imgur.com/ZysnJ2G.png">
+<img src="https://i.imgur.com/VsHpxmM.png">
 </p>
 <p>
-Heading back to VM1, we will run ipconfig /all to see our DNS server is now pointing to our Domain Controller's private IP (you made need to restart VM1 prior to this step).
-</p>
-<br><br>
-
-<p>
-<img src="https://i.imgur.com/pyZGWJk.png">
-</p>
-<p>
-Lorem ipsum dolor sit amet
+Now we need to join our Client VM to our domain. Heading back over to our client VM1 in Azure, we will copy the Public IP address and connect.
 </p>
 <br><br>
 
+<p>
+<img src="https://i.imgur.com/FTB6PKf.png">
+</p>
+<p>
+Using Remote Desktop we will paste this IP in, and click Connect to open VM1.
+</p>
+<br><br>
 
 <p>
 <img src="https://i.imgur.com/RuVny70.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Now in VM1, we will flush dns and run ipconfig /all to see our DNS server is now pointing to our Domain Controller's private IP.
 </p>
 <br><br>
 
@@ -465,7 +435,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/qWunAR3.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+And just a quick ping test to make sure everything is still connected, and our VMs are communicating. 
 </p>
 <br><br>
 
