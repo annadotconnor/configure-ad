@@ -31,8 +31,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Steps Not Shown</h3>
 
-- 1 Azure VM created with Windows 10 (VM1)
-- 1 Azure VM Domain Controller created with Windows Server 2022 (DC1)
+- 1  created with Windows 10 (VM1)
+- 1  Domain Controller created with Windows Server 2022 (DC1)
 - Set Domain Controller IP to static
 <br><br>
 
@@ -207,7 +207,7 @@ Heading back to Azure we will grab DC1's public IP address, and sign back into R
 <img src="https://i.imgur.com/l80VsD3.png">
 </p>
 <p>
-"labuser" is the generic sign in I created during the Azure VM installation process. We will proceed with resigning into our Domain Controller with the credentials of our new domain. Click More Choices to change the login options.
+"labuser" is the generic sign in I created during the Azure VM installation process. We will proceed with re-signing into our Domain Controller with the credentials of our new domain. Click More Choices to change the login options.
 </p>
 <br><br>
 
