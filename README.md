@@ -444,7 +444,7 @@ And just a quick ping test to make sure everything is still connected, and our V
 <img src="https://i.imgur.com/WTzlv3C.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Right click on Start, choose System.
 </p>
 <br><br>
 
@@ -453,7 +453,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/iFhONgg.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Rename this PC (advanced).
 </p>
 <br><br>
 
@@ -471,7 +471,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/0jUywlG.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Change.
 </p>
 <br><br>
 
@@ -480,7 +480,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/ptKT6ET.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Under Member Of- click Domain and enter the domain name as shown. Click OK.
 </p>
 <br><br>
 
@@ -489,7 +489,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/bGAAxFX.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Enter the domain admin credentials we created.
 </p>
 <br><br>
 
@@ -498,7 +498,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/qkPUIvp.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+And this message should populate once the client has been added to the domain.
 </p>
 <br><br>
 
@@ -507,7 +507,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/Wlkjhgu.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+VM1 will now need to restart. Click Restart.
 </p>
 <br><br>
 
@@ -516,7 +516,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/DPCZQ9n.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We can now use our admin account to login to VM1. Enter the admin credentials as shown and reconnect to VM1.
 </p>
 <br><br>
 
@@ -525,7 +525,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/g0GBzo7.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We can see our admin account from DC1 is now successfully logging into VM1.
 </p>
 <br><br>
 
@@ -534,7 +534,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/EwOfSha.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+And just for transparency, we can see we are logged into our admin account with our client machine.
 </p>
 <br><br>
 
@@ -543,7 +543,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/FmmtUC9.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Right click the Start menu, go to System once more. Click on Remote Desktop. Under User accounts, click "Select users that can remotely access this PC". 
 </p>
 <br><br>
 
@@ -552,7 +552,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/F4tcNBh.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Add.
 </p>
 <br><br>
 
@@ -561,7 +561,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/Ei5Ecga.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Shortly we will be creating 1000 random users in our Active Directory. To be sure these users can login we can use the default security group "Domain Users" to ensure all users in our domain have the ability to use Remote Desktop. Type Domain Users, click CHeck Names. Once underlined, it has been selected. Click OK. (In a live setting we could use Group Policy to accomplish this at a higher level, but for the sake of this lab, we will use these steps to accomplish the task).
 </p>
 <br><br>
 
@@ -570,7 +570,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/XkQWKbZ.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+And we can see all domain users are able to use Remote Desktop to login to our domain. Click OK.
 </p>
 <br><br>
 
@@ -579,16 +579,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/BuLEwJt.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
-</p>
-<br><br>
-
-
-<p>
-<img src="https://i.imgur.com/FNmxoSm.png">
-</p>
-<p>
-Lorem ipsum dolor sit amet
+Heading back to DC1, we will navigate back to Active Directory, and click on the Users OU. We can see Domain Users has been added. 
 </p>
 <br><br>
 
@@ -597,7 +588,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/lu4jBAm.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Search Windows PowerShell, right click and run as Administrator.
 </p>
 <br><br>
 
@@ -606,7 +597,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/4aE4c9e.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We will be implenting powershell script to add 1000 users to our domain. The usernames will be created randomly, and they will all have the same password. Click the blank paper icon in the upper left corner to create a new script file. The script file we will be using is located <a href="https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">here</a>. 
 </p>
 <br><br>
 
@@ -615,7 +606,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/DxVIJOI.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Paste the script into our file. The script is set to create 10,000 users. You can set it to make as many as you like. I shorted this list to 1000. We can see within the script all users will have the same password of Password1. 
 </p>
 <br><br>
 
