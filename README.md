@@ -562,7 +562,7 @@ Click Add.
 <img src="https://i.imgur.com/Ei5Ecga.png">
 </p>
 <p>
-Shortly we will be creating 1000 random users in our Active Directory. To be sure these users can login we can use the default security group "Domain Users" to ensure all users in our domain have the ability to use Remote Desktop. Type Domain Users, click CHeck Names. Once underlined, it has been selected. Click OK. (In a live setting we could use Group Policy to accomplish this at a higher level, but for the sake of this lab, we will use these steps to accomplish the task).
+Shortly we will be creating 1000 random users in our Active Directory. To be sure these users can login we can use the default security group "Domain Users" to ensure all users in our domain have the ability to use Remote Desktop. Type Domain Users, click Check Names. Once underlined, it has been selected. Click OK. (In a live setting we could use Group Policy to accomplish this at a higher level, but for the sake of this lab, we will use these steps to accomplish the task).
 </p>
 <br><br>
 
