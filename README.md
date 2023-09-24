@@ -39,7 +39,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/H3BCnCc.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We are currently in DC1 (domain controller). This is the Server Manager Dashboard. To begin, we will be using ping tests between the two machines, so we need to enable ICMPv4 traffic.
 </p>
 <br><br>
 
@@ -47,7 +47,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/0x10h4b.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Bring up Windows Firewall, click Windows Defender Firewall with Advanced Security.
 </p>
 <br><br>
 
@@ -55,7 +55,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/45BUMht.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Once here, click Inbound Rules.
 </p>
 <br><br>
 
@@ -63,7 +63,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/aUSDQTv.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We can see the various Inbound Rules listed. Be sure the expand this screen so you can see the Protocol column near the right, this is where we will find our ICMP protocols. 
 </p>
 <br><br>
 
@@ -71,7 +71,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/28tAxbc.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+You can see the ICMPv4 protocols listed here. Go through and enable all. 
 </p>
 <br><br>
 
@@ -79,7 +79,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/PDrVcZy.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Going back to our client VM (VM1), we can now perform a ping test using DC1's private IP address of 10.0.0.4 - As we can see, the ping test was successful, and communication between machines is open.
 </p>
 <br><br>
 
@@ -87,7 +87,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/5HBtyPN.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Back over to DC1, we will now install Active Directory on our Domain Controller.
 </p>
 <br><br>
 
