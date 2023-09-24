@@ -463,7 +463,7 @@ Click Rename this PC (advanced).
 <img src="https://i.imgur.com/yzT1nCT.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Change.
 </p>
 <br><br>
 
@@ -472,7 +472,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/0jUywlG.png">
 </p>
 <p>
-Click Change.
+Under Member Of- click Domain and enter the domain name as shown. Click OK.
 </p>
 <br><br>
 
@@ -481,7 +481,7 @@ Click Change.
 <img src="https://i.imgur.com/ptKT6ET.png">
 </p>
 <p>
-Under Member Of- click Domain and enter the domain name as shown. Click OK.
+Enter the domain admin credentials we created.
 </p>
 <br><br>
 
@@ -490,7 +490,7 @@ Under Member Of- click Domain and enter the domain name as shown. Click OK.
 <img src="https://i.imgur.com/bGAAxFX.png">
 </p>
 <p>
-Enter the domain admin credentials we created.
+And this message should populate once the client has been added to the domain.
 </p>
 <br><br>
 
@@ -499,7 +499,7 @@ Enter the domain admin credentials we created.
 <img src="https://i.imgur.com/qkPUIvp.png">
 </p>
 <p>
-And this message should populate once the client has been added to the domain.
+VM1 will now need to restart. Click Restart.
 </p>
 <br><br>
 
@@ -508,7 +508,7 @@ And this message should populate once the client has been added to the domain.
 <img src="https://i.imgur.com/Wlkjhgu.png">
 </p>
 <p>
-VM1 will now need to restart. Click Restart.
+We can now use our admin account to login to VM1. Enter the admin credentials as shown and reconnect to VM1.
 </p>
 <br><br>
 
@@ -517,7 +517,7 @@ VM1 will now need to restart. Click Restart.
 <img src="https://i.imgur.com/DPCZQ9n.png">
 </p>
 <p>
-We can now use our admin account to login to VM1. Enter the admin credentials as shown and reconnect to VM1.
+We can see our admin account from DC1 is now successfully logging into VM1.
 </p>
 <br><br>
 
@@ -526,7 +526,7 @@ We can now use our admin account to login to VM1. Enter the admin credentials as
 <img src="https://i.imgur.com/g0GBzo7.png">
 </p>
 <p>
-We can see our admin account from DC1 is now successfully logging into VM1.
+And just for transparency, we can see we are logged into our admin account with our client machine.
 </p>
 <br><br>
 
@@ -535,7 +535,7 @@ We can see our admin account from DC1 is now successfully logging into VM1.
 <img src="https://i.imgur.com/EwOfSha.png">
 </p>
 <p>
-And just for transparency, we can see we are logged into our admin account with our client machine.
+Right click the Start menu, go to System once more. Click on Remote Desktop.  
 </p>
 <br><br>
 
@@ -544,7 +544,7 @@ And just for transparency, we can see we are logged into our admin account with 
 <img src="https://i.imgur.com/FmmtUC9.png">
 </p>
 <p>
-Right click the Start menu, go to System once more. Click on Remote Desktop. Under User accounts, click "Select users that can remotely access this PC". 
+Under User accounts, click "Select users that can remotely access this PC".
 </p>
 <br><br>
 
