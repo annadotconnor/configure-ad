@@ -615,7 +615,7 @@ Paste the script into our file. The script is set to create 10,000 users. You ca
 <img src="https://i.imgur.com/fw9a257.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We can also see the accounts are going to be created within our _EMPLOYEES OU. Click Run (Green play button above).
 </p>
 <br><br>
 
@@ -623,7 +623,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/UWo8J7n.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+You can see our script is now running, and our users are being created. Give this a min or two to generate users.
 </p>
 <br><br>
 
@@ -632,7 +632,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/AzbvM4e.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Navigating back to Active Directory, click on the _EMPLOYEES OU and you will see our users are being created. If you don't see them here, right click and refresh the domain. To complete the lab, we will randomly choose a user that was created within our _EMPLOYEES OU, take the name down, and use it to login to VM1. 
 </p>
 <br><br>
 
@@ -641,7 +641,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/wK7O3Bg.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+I have chosen the random user of baxa.pub, so we will enter this username and Password1 along with our domain name to login to VM1. 
 </p>
 <br><br>
 
@@ -650,7 +650,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/IHUpSqY.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+As you can see, we are successfully logging into our VM1 with our random user. 
 </p>
 <br><br>
 
@@ -659,7 +659,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/wZz6dPY.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+And to complete, I have run  the whoami and hostname commands on VM1 to show we are logged in as baxa.pub within VM1 on our domain. This concludes the Active Directory lab. 
 </p>
 <br><br>
 
