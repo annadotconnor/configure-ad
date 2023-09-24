@@ -25,6 +25,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 - Create Admin Account 
 - Join VM to Domain Controller
 - Setup Remote Desktop for 1000 Non-Administrative Users
+- Login in our Client VM with a random user we've created within our domain.
 
 <h2>Deployment and Configuration Steps</h2>
 
