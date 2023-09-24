@@ -87,7 +87,7 @@ Going back to our client VM (VM1), we can now perform a ping test using DC1's pr
 <img src="https://i.imgur.com/5HBtyPN.png">
 </p>
 <p>
-Back over to DC1, we will now install Active Directory on our Domain Controller.
+Back over to DC1, we will now install Active Directory on our Domain Controller. Click Add Roles and features.
 </p>
 <br><br>
 
@@ -95,7 +95,7 @@ Back over to DC1, we will now install Active Directory on our Domain Controller.
 <img src="https://i.imgur.com/F77AxgN.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Once you reach the Installation Wizard above, click Next until you reach the screen shown below. 
 </p>
 <br><br>
 
@@ -103,7 +103,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/jxw3xOQ.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+On this screen we need to select Active Directory Domain Services. Once selected, click Next.  
 </p>
 <br><br>
 
@@ -111,7 +111,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/UIt8icx.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Add Features.
 </p>
 <br><br>
 
@@ -119,7 +119,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/aKSMGUo.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Active Directory is ready to be installed, Click Next through the following screens, and finally Install.
 </p>
 <br><br>
 
@@ -127,7 +127,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/UhLv2nz.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Once installation completes, click Close.
 </p>
 <br><br>
 
@@ -135,7 +135,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/OrQylaI.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Navigate back to Server Manager, and click on the yellow attention icon in the upper right.
 </p>
 <br><br>
 
@@ -143,7 +143,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/9PsmCfq.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+This is alerting us to complete our Active Directory installation by promoting the server to our Domain Controller. So we will click the link that says "Promote this erver to a domain controller".
 </p>
 <br><br>
 
@@ -152,7 +152,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/5CfGQvH.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We will now choose our domain. For this lab you can choose anything, the domain won't be public, and the context will not matter.
 </p>
 <br><br>
 
@@ -161,7 +161,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/gLQzmGZ.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We will proceed with sukunasdomain.com - If you get the reference, you're superior. Moving on.
 </p>
 <br><br>
 
@@ -170,7 +170,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/nCd0ZEt.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Next. On the next screen enter a password. This will not be for login, it is for a Restore Mode which is arbritrary for this lab, but must be completed to continue.
 </p>
 <br><br>
 
@@ -179,7 +179,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/GZE8LrB.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+The domain name has populated. Click Next.
 </p>
 <br><br>
 
@@ -188,16 +188,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/8TGmyM3.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
-</p>
-<br><br>
-
-
-<p>
-<img src="https://i.imgur.com/P4skHp3.png">
-</p>
-<p>
-Lorem ipsum dolor sit amet
+And now the installation is complete and ready for reboot. This will sign us out of our DC1 VM.
 </p>
 <br><br>
 
@@ -206,7 +197,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/wIs5ddC.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Heading back to Azure we will grab DC1's public IP address, and sign back into Remote Desktop.
 </p>
 <br><br>
 
@@ -215,7 +206,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/l80VsD3.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+"labuser" is the generic sign in I created during the Azure VM installation process. We will proceed with resigning into our Domain Controller with the credentials of our new domain. Click More Choices to change the login options.
 </p>
 <br><br>
 
@@ -224,7 +215,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/S8f2l6S.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Here we can see we must now include the domain in our login credentials. The password is the same for "labuser", it is not the password we created for Restore Mode.
 </p>
 <br><br>
 
@@ -233,7 +224,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/IctwRda.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We are now logged back into DC1. 
 </p>
 <br><br>
 
@@ -242,7 +233,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/o9Uh1K8.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+On the Server Manager Dashboard navigate to the Tools menu in the upper right, and select Active Directory Users and Computers.
 </p>
 <br><br>
 
@@ -250,7 +241,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/EWPtLsf.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+This is the Active Directory interface. You can see our domain created is shown on the left. Click on the domain, and expand.
 </p>
 <br><br>
 
@@ -259,7 +250,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/BmjN7rE.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We will now create a couple Organizational Units or OUs. Right click the domain, and choose New > Organizational Unit.
 </p>
 <br><br>
 
@@ -268,7 +259,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/qpqtP8G.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+You don't have to use underscores, but doing so will push your OU to the top of the list and does make things a bit easier to find. We will create an Employees OU and an Admins OU. Once Employees is created, repeat the process and create another for Admins.
 </p>
 <br><br>
 
@@ -277,7 +268,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/6AXNfcv.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Right click on the domain, hit refresh, and you'll see the OUs created move to the top of the list. 
 </p>
 <br><br>
 
@@ -286,7 +277,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/xX3L2rj.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+We will now create an Admin user within our Admin OU. Right click on _ADMINS, select New > User.
 </p>
 <br><br>
 
@@ -295,7 +286,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/N7dBZUT.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Go ahead and choose your Admin's name. 
 </p>
 <br><br>
 
@@ -304,7 +295,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/5JBkwaj.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Choose a password. Be sure to take this down, we will need it to login with our new admin account.
 </p>
 <br><br>
 
@@ -313,7 +304,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/eSuPxS6.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Finish.
 </p>
 <br><br>
 
@@ -322,7 +313,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/lmLJktv.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+So now our user is created, but our OU is simply named ADMINS, and we need to actually assign the user to our domain admins group.
 </p>
 <br><br>
 
@@ -331,7 +322,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/TilVo7x.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Right click on the user, go to Properties.
 </p>
 <br><br>
 
@@ -340,7 +331,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/gUr4AQp.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Go to the Member Of tab, click Add.
 </p>
 <br><br>
 
@@ -349,7 +340,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/5JZHhWd.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Type Domain Admins, and click Check Names. Once it is underlined, the group is selected. Click OK.
 </p>
 <br><br>
 
@@ -358,7 +349,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/e9Pw6x6.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+And now Satoru Gojo is part of our Admins group. We will now logout of our "labuser" account, and log back in with our new admin account.
 </p>
 <br><br>
 
@@ -367,7 +358,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/VER9sum.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Once reconnected to the Remote Desktop, the login screen will populate. We will login with our domain and new admin credentials (you will probably need to click Use a different account/More choices, etc like before to choose a different user).
 </p>
 <br><br>
 
@@ -376,7 +367,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/5IVKLu0.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+And just for transparency I have opened a command window to show we are logged in as our new admin.
 </p>
 <br><br>
 
@@ -385,7 +376,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/VsHpxmM.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Now we need to join our Client VM to our domain. Heading back over to our client VM1 in Azure, we will copy the Public IP address and connect.
 </p>
 <br><br>
 
@@ -394,7 +385,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/FTB6PKf.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Using Remote Desktop we will paste this IP in, and click Connect to open VM1.
 </p>
 <br><br>
 
@@ -403,7 +394,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/SNwiRVb.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+For transparency, we can see we are back in VM1, under our labuser account. We now have both VMs running (DC1, VM1). 
 </p>
 <br><br>
 
