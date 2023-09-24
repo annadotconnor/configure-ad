@@ -403,7 +403,7 @@ For transparency, we can see we are back in VM1, under our labuser account. We n
 <img src="https://i.imgur.com/fFB5nUG.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Going back to Azure, we will be setting VM1's DNS server to DC1's Private IP address. VM1's DNS settings are currently pointing to the Virtual Network. To join VM1 to our domain we need to set the DNS to point to our domain controller. Copy the private IP address.
 </p>
 <br><br>
 
@@ -412,7 +412,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/zRdk2RJ.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Heading back over to VM1 in Azure, we will navigate to the Networking panel, and click the Networking Interface link shown above.
 </p>
 <br><br>
 
@@ -421,7 +421,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/payPZVa.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click DNS Servers.
 </p>
 <br><br>
 
@@ -430,7 +430,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/8HayHh5.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Click Custom. We will now enter the domain controller's private IP address. Click Save. 
 </p>
 <br><br>
 
@@ -439,7 +439,7 @@ Lorem ipsum dolor sit amet
 <img src="https://i.imgur.com/ZysnJ2G.png">
 </p>
 <p>
-Lorem ipsum dolor sit amet
+Heading back to VM1, we will run ipconfig /all to see our DNS server is now pointing to our Domain Controller's private IP (you made need to restart VM1 prior to this step).
 </p>
 <br><br>
 
