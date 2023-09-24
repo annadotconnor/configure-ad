@@ -40,7 +40,7 @@ This tutorial outlines the implementation of on-premises Active Directory within
 <img src="https://i.imgur.com/H3BCnCc.png">
 </p>
 <p>
-We are currently in DC1 (domain controller). This is the Server Manager Dashboard. To begin, we will be using ping tests between the two machines, so we need to enable ICMPv4 traffic.
+We are currently in our Domain Controller (DC1) at the Server Manager Dashboard. To begin we will be enabling ICMPv4 protocols within Windows Firewall.
 </p>
 <br><br>
 
