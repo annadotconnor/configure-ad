@@ -28,6 +28,13 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h2>Deployment and Configuration Steps</h2>
 
+<h3>Steps Not Shown</h3>
+
+- 1 Azure VM created with Windows 10 (VM1)
+- 1 Azure VM Domain Controller created with Windows Server 2022 (DC1)
+- Set Domain Controller IP to static
+<br><br>
+
 <p>
 <img src="https://i.imgur.com/H3BCnCc.png">
 </p>
