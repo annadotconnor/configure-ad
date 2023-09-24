@@ -31,8 +31,8 @@ This tutorial outlines the implementation of on-premises Active Directory within
 
 <h3>Steps Not Shown</h3>
 
-- 1  created with Windows 10 (VM1)
-- 1  Domain Controller created with Windows Server 2022 (DC1)
+- 1 Virtual Machine created with Windows 10 (VM1)
+- 1 Virtual Machine Domain Controller created with Windows Server (DC1)
 - Set Domain Controller IP to static
 <br><br>
 
