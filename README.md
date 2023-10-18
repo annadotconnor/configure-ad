@@ -607,7 +607,7 @@ We will be implenting powershell script to add 1000 users to our domain. The use
 <img src="https://i.imgur.com/DxVIJOI.png">
 </p>
 <p>
-Paste the script into our file. The script is set to create 10,000 users. You can set it to make as many as you like. I shorted this list to 1000. We can see within the script all users will have the same password of Password1. 
+Paste the script into our file. The script is set to create 10,000 users. You can set it to make as many as you like. I shortened this list to 1000. We can see within the script all users will have the same password of Password1. 
 </p>
 <br><br>
 
